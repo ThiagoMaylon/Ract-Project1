@@ -12,3 +12,11 @@
   justify-content: center;
   height: 100px;
 }
+
+.search-conteiner{
+  margin-bottom: 30px;
+}
+.search-conteiner h1{
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
