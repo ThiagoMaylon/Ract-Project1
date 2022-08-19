@@ -5,6 +5,9 @@ import { Posts } from '../../components/Posts';
 import { Button } from '../../components/Button';
 import { Textinput } from '../../components/Textinput';
 
+
+// so um comentario de teste
+
 export class Home extends Component{
     state = {
       posts: [],
