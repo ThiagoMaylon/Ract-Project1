@@ -1,5 +1,5 @@
 import './styles.css'
-export const Textinput = ({searchValue, handleChange}) => (
+export const TextInput = ({searchValue, handleChange}) => (
     <input 
           className='text-input'
           type="search"

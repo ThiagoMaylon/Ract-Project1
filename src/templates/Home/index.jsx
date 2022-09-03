@@ -3,7 +3,7 @@ import { Component, useEffect, useState } from 'react';
 import {LoadPosts} from '../../utils/Load-Post';
 import { Posts } from '../../components/Posts';
 import { Button } from '../../components/Button';
-import { Textinput } from '../../components/Textinput';
+import { TextInput } from '../../components/Textinput';
 import { useCallback } from 'react';
 
 
@@ -62,7 +62,7 @@ export const Home = () => {
             
         )}
         
-        <Textinput 
+        <TextInput 
         searchValue={searchValue}
         handleChange={handleChange}/>
       </div>
@@ -71,7 +71,7 @@ export const Home = () => {
         <Posts posts={filteredPost}/>
       )}
       {filteredPost.length === 0 &&(
-        <p>não esxiste postes para: {searchValue}</p>
+        <p>não existe poste para: {searchValue}</p>
       )}
 
       <div className="button-conteiner">
